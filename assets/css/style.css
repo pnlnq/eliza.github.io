@@ -1,316 +1,150 @@
-/* This style is for paragraph */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/*this style is for the paragraph*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
-a {
-    text-decoration: none;
+body{
+    font-family: 'Poppins', sans-serif;
 }
-body, form, input, textarea {
-    font-family: 'Montserrat', sans-serif;
+.logo-container {
+    display: inline-block;
+    color: white;
 }
-span {
-    display: block;
-}
-img {
-    width: 100%;
-}
-p {
-    line-height: 25px;
-    font-size: 18px;
-}
-h2{
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-bottom: 27px;
-}
-.container {
-    width: 1400px;
-    margin: 0 auto;
+.logo-container img {
+    width: 200px;
 }
 header {
-    background: #fff url(../images/girl.jpg) no-repeat;
-    padding: 80px;
-    background-size: cover;
+    background: #231f20;
+    padding: 20px
 }
-nav.header-navigation {
-    margin-top: 50px;
+.nav-container {
+    text-align: right;
+    padding: 82px;
+    float: right;
 }
 nav.header-navigation a {
     font-size: 18px;
+    margin: 20px;
     text-decoration: none;
-    margin: 13px;
-    color: #ffffff;
+    color: white;
+}
+section.banner-section {
+    background: #fff url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner {
+    padding: 120px;
 }
 h1 {
-    color: #4a87ad;
-    font-size: 65px;
-    margin-top: 130px;
-}
-p {
-    line-height: 25px;
-    font-size: 18px;
+    text-align: center;
+    font-size: 55px;
     color: white;
-    margin-bottom: 250px;
+    text-shadow: 3px 3px #1a301a;
 }
-nav.header-navigation a:hover {
-    color: #d7b786;
-}
-
-
-
-/* Add your Banner here */
-.banner p {
-    line-height: 25px;
-    font-size: 18px;
-    color: white;
-    margin-bottom: 295px;
-}
-
-
-/* Add your About Styles here*/
-section.about-section {
-    background: url(https://images.pexels.com/photos/90764/man-studio-portrait-light-90764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
-    background-size: cover;
-}
-.about-me {
-    width: 50%;
-    text-align: left;
+.info {
+    width: 25%;
     display: inline-block;
-}
-.about-me p {
-    margin-bottom: 15px;
-    color: white;
-    margin-right: 50px;
+    padding: 20px;
+    margin: 30px;
+    background: #2b482b;
+    border-radius: 50px;
 }
 h2 {
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-bottom: 27px;
     color: white;
-    text-align: right;
-    padding: 35px;
-    margin-right: 85px;
 }
-.about-me {
-    width: 95%;
-    text-align: right;
-    display: inline-block;
-    margin-bottom: 500px;
-}
-/* Add your Skills Styles here*/
-section#skills .col {
-    font-size: 87px;
-}
-section#skills {
-    background: url(https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg?cs=srgb&dl=pexels-daniel-reche-1556704.jpg&fm=jpg&_gl=1*dsq32z*_ga*MTkxNzIzMDk2LjE2NjY1MjYyNzY.*_ga_8JE65Q40S6*MTY2NzUwNTk0Ni40LjEuMTY2NzUwODI4NC4wLjAuMA..);
-    color: #fff;
-    background-size: cover;
-    padding: 100px;
-}
-section.quote {
-    padding: 90px 50px;
+section.about-section {
+    background: #231f20;
+    padding: 50px;
     text-align: center;
-    background: #002e3f;
-    color: #fff;
+    font-size: 28px;
+    background-image: linear-gradient(to right, black , #233223);
+    height: 125vh;
 }
-section#skills h3 {
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-bottom: 40px;
-}
-section#skills .col {
-    font-size: 87px;
-    display: inline-block;
-    width: 20%
-}
-section#skills p {
-    line-height: 25px;
-    font-size: 18px;
+h3 {
     color: white;
-    margin-bottom: 100px
+    margin-bottom: 30px
 }
-span {
-    display: block;
-    color: #bfa215;
-}
-section.quote {
-    padding: 80px;
-    text-align: center;
-    background: #002e3f;
-    color: #fff;
-}
-section.quote p {
-    line-height: 25px;
-    font-size: 18px;
+.about-text {
     color: white;
-    margin-bottom: 20px;
-}
-
-
-/* Contact Styles */
-section#contact {
-    background: url('../images/contact.jpg') no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-.form-container {
-    text-align: right;
-    width: 95%;
-}
-input[type="text"]:focus-visible, textarea:focus-visible {
-    outline: none;
-}
-textarea#message {
-    border: 1px solid #000;
-    border-radius: 9px;
-}
-
-input[type="button"]:hover {
-    background: #007e67;
-}
-label {
-    display: block;
-    text-align: left;
-    margin-left: 665px;
-    padding-bottom: 30px;
-}
-input {
-    width: 50%;
-    background: transparent;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom-color: #929595;
-    margin-bottom: 10px;
-}
-textarea#message {
-    border: 1px solid #000;
-    border-radius: 9px;
-    width: 50%;
-    background: transparent;
-    border-color: grey;
-}
-h4 {
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-left: 660px;
-    color: black;
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 25px;
-}
-section#contact {
-    background: url(../images/contact.jpg) no-repeat;
-    background-size: cover;
-    height: 90vh;
-}
-input[type="button"] {
-    background-color: #6aa98f;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 100px;
-    border-bottom: 0;
-    padding: 20px;
-    letter-spacing: 4px;
-    color: white;
-    text-transform: uppercase;
-    width: 150px;
-    display: block;
-    margin-left: 88%;
-    margin-top: 25px;
-    margin-bottom: 0;
-}
-input {
-    width: 50%;
-    background: transparent;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom-color: #929595;
-}
-
-/* Footer Styles */
-footer, a {
-    color: #fff;
-}
-footer {
-    background: #1a1a1a;
-    padding-top: 70px;
-}
-section.footer-1 .col {
-    vertical-align: top;
-    display: inline-block;
-    width: 33%;
-}
-section.footer-1 .col ul li img {
-    width: 100px;
-    margin-top: 10px;
-}
-section.footer-1 .col ul li {
-    list-style: none;
-    display: inline-block;
-}
-.footer-1 form {
-    width: 100%;
-    margin-top: 24px;
-}
-.footer-1 input[type="button"] {
-    margin-top: 10px;
-    font-size: 11px;
-    padding: 15px 21px;
-    letter-spacing: 3px;
-    float: left;
-    width: 110px;
-    text-transform: uppercase;
-    background: #007e67;
-    margin-left: 0;
-}
-.social-media-icon {
-    margin-top: 15px;
-}
-.social-media-icon a {
-    font-size: 45px;
-}
-.social-media-icon a:hover {
-    color: #00c8a3;
-}
-.footer-1 input#email {
-    border: 1px solid #fff;
-    border-radius: 20px;
-    margin-bottom: 12px;
-    width: 420px;
-    height: 19px;
-    color: white;
-    padding-left: 20px;
-    padding-top: 10px
-}
-footer h3 {
-    line-height: 35px;
-}
-.footer-1 span.copyright {
-    margin-top: 20px;
-    padding-bottom: 80px
-}
-.footer-1 span {
-    display: block;
-    color: white;
-    margin-top: 80px;
-    padding-bottom: 0px
-}
-.footer-1 label {
-    float: left;
-    padding-bottom: 20px;
-    margin-top: -1px;
-    margin-left: 0;
 }
 p {
-    line-height: 25px;
-    font-size: 18px;
-    color: white;
-    margin-bottom: 20px;
+    background: #2b482b;
+    padding: 20px;
+    border-radius: 60px;
 }
-.footer-1 h3 {
+.banner-project {
+    background: #fff url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px
+}
+h4 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.col {
+    width: 25%;
+    padding: 15px;
+    display: inline-block;
+    background: #2b482b;
+    color: white;
+    margin: 25px;
+    border-radius: 30px
+}
+span {
+    font-size: 20px
+}
+h5 {
+    font-size: 20px
+}
+.row {
+    width: 25%;
+    padding: 20px;
+    display: inline-block;
+    background: #2b482b;
+    color: white;
+    margin: 25px;
+    border-radius: 15px
+}
+section.button-section {
+    background: #231f20;
+    font-size: 40px;
+    padding: 35px;
+    text-align: center;
+}
+h6 {
+    color: white;
+    margin-bottom: 15px;
+}
+button {
+    border-radius: 100px;
+    font-size: 25px;
+    padding: 10px;
+}
+.about-pic img {
+    float: left;
+    width: 25%;
+    margin: 60px;
+    margin-left: 240px;
+    border-radius: 40px;;
+}
+.pic-info p {
+    background: #2b482b;
+    padding: 20px;
+    border-radius: 60px;
+    width: 25%;
+    float: right;
+    margin-top: 12.5%;
+    height: 7vh;
+    margin-right: 280px;
+}
+.discord p {
+    background: #2b482b;
+    padding: 20px;
+    border-radius: 60px
+}
+.discord span {
     font-size: 20px;
 }
